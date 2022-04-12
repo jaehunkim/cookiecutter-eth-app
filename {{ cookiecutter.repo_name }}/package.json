@@ -1,0 +1,21 @@
+{
+    "name": "{{cookiecutter.project_name}}",
+    "version": "1.0.0",
+    "description": "",
+    "workspaces": [
+        "ui",
+        "contracts"
+    ],
+    "scripts": {
+        "build": "yarn workspace contracts build && yarn workspace ui build",
+        "develop": "yarn workspace contracts build && yarn workspace contracts hardhat node & yarn workspace ui start && wait",
+        "deploy": "yarn workspace contracts hardhat run scripts/deploy.ts"
+    },
+    "repository": "",
+    "author": "",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "ts-node": "^10.5.0"
+    }
+}

@@ -1,0 +1,1 @@
+# Cookiecutter Eth-app

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "repository": "",
-  "author": "",
+  "author": "{{cookiecutter.author_name}}",
   "license": "MIT",
   "main": "dist/src/index.js",
   "types": "src/index.ts",

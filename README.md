@@ -20,4 +20,4 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter -c v1 https://github.com/jaehunkim/cookiecutter-eth-app
+    cookiecutter -c v1.0.0 https://github.com/jaehunkim/cookiecutter-eth-app
